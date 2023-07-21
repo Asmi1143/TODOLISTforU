@@ -1,0 +1,112 @@
+body {
+    
+    font-family: Arial, sans-serif;
+    background: black;
+  }
+  
+  h1 {
+    text-align: center;
+    border-radius: 0cqh;
+    margin-top: 20px;
+    width:auto;
+    padding-bottom: 10px;
+  }
+  hr{
+    border-top: 3px dashed #dfd220 ;
+  }
+  
+  
+  .input-container {
+    display: flex;
+    border-color:  #dfd220;
+    border-style:ridge;
+    border-width: 3px;
+    margin-top: 35px;
+    width: auto;
+  }
+  .i{
+    color: #c54444;
+    text-align: center;
+    
+  }
+  
+  #taskInput {
+    flex-grow: 1;
+    padding: 9px;
+    width: auto;
+    color: #97e235;
+    text-size-adjust: 20px;
+  }
+  .ii{
+    
+    border: 2px solid #dfd220;
+    border-radius: 7px;
+    box-shadow: 0 0 10px #dfd220;
+    
+    
+  }
+  button {
+    padding: 5px 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+    color: #dfd220;
+    width: auto;
+  }
+.word-waves span{
+    position: absolute;
+    margin-top:0px;
+    color: #c54444;
+    font-size: 3rem;
+    border-width: 3px;
+    transform:translate(-50%,-50%);
+
+  }
+   .word-waves span:nth-child(1){
+    color: transparent;
+    -webkit-text-stroke: 0.3px #dfd220;
+  }
+   .word-waves span:nth-child(2){
+    color:rgb(211, 124, 53);
+    -webkit-text-stroke: 1px #97e235;
+    animation: animation 3s ease-in-out infinite;
+  }
+  @keyframes animation{
+    0%, 100%{
+        clip-path: polygon(0% 45%, 15% 44%, 32% 50% ,54% 60%,70% 61%, 84% 59%, 100% 52%,100% 100%, 0% 100%);
+    }
+    50% {
+        clip-path: polygon(0% 60%,16% 65%, 34% 66%,51% 62%, 67% 50%,84% 45%, 100% 46%,100% 100%, 0% 100%);
+    }
+  }
+  
+  li {
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 30px;
+    color: aqua;
+    
+  }
+  
+  li.completed {
+    text-decoration: line-through;
+  }
+  
+  .date {
+    font-size: 12px;
+    font-style: oblique;
+    color: #888888;
+  }
+  .iii{
+    border-width: 3px;
+    border-radius: 20px;
+    color:black;
+    text-shadow: 1px 1px #97e235;
+    background-color: #c54444;
+  }
+  
